@@ -1,0 +1,19 @@
+{
+  "env": [
+    {"POSTGRAPHILE_URL":"http://localhost:5080"}
+    ,{"REDIS_HOSTNAME":"localhost"}
+    ,{"REDIS_PORT":"6379"}
+    ,{"REDIS_DB":"9"}
+    ,{"REDIS_PASSWORD":"1lJzUOquWpyubQBBitQEyxln"}
+    ,{"ELASTICSEARCH_HOST":"localhost"}
+    ,{"ELASTICSEARCH_PORT":"9200"}
+    ,{"ELASTICSEARCH_INDEX":"trapi"}
+    ,{"DCS_SERVER_URL":"http://localhost:8080"}
+    ,{"SECRETS_CONFIG": "{\"default_secret_args\": {\"sectype\": \"EnvSecret\"}}"}
+    ,{"API_PORT": "8000"}
+    ,{"JWT_SECRET": "5Qo4UWlkt&6V"}
+    ,{"JWT_AUDIENCE": "postgraphile"}
+    ,{"ROOT_PATH": ""}
+    ,{"IGNORE_ES": "0"}
+  ]
+}
